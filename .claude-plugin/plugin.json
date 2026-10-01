@@ -1,0 +1,13 @@
+{
+  "name": "design-ai-infra",
+  "version": "1.0.0",
+  "description": "AI skills for product and growth experimentation: turn a loose idea into a testable hypothesis, then into an executable experiment plan.",
+  "author": {
+    "name": "Otávio Sueitt",
+    "url": "https://github.com/otaviosueitt33"
+  },
+  "homepage": "https://github.com/otaviosueitt33/design-ai-infra",
+  "repository": "https://github.com/otaviosueitt33/design-ai-infra",
+  "license": "MIT",
+  "keywords": ["product", "growth", "experimentation", "ab-testing", "hypothesis", "design"]
+}

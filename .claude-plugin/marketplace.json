@@ -1,0 +1,16 @@
+{
+  "name": "design-ai-infra",
+  "description": "Open AI skills for product and growth experimentation by Otávio Sueitt.",
+  "owner": {
+    "name": "Otávio Sueitt",
+    "url": "https://github.com/otaviosueitt33"
+  },
+  "plugins": [
+    {
+      "name": "design-ai-infra",
+      "source": "./",
+      "description": "AI skills for product and growth experimentation: hypothesis-builder and experiment-plan.",
+      "version": "1.0.0"
+    }
+  ]
+}
