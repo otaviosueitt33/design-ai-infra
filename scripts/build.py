@@ -33,7 +33,7 @@ def parse_skill(path):
 
 
 def bundled_files(path):
-    return sorted(p for p in path.rglob("*") if p.is_file() and p.name != "SKILL.md" and not p.name.startswith("."))
+    return sorted(p for p in path.rglob("*") if p.is_file() and p.name not in ("SKILL.md", "README.md") and not p.name.startswith("."))
 
 
 def build_prompt(path):
@@ -78,7 +78,7 @@ def build_prompt(path):
 
 def zip_dir(zf, folder, arc_root):
     for f in sorted(folder.rglob("*")):
-        if f.is_file() and not f.name.startswith("."):
+        if f.is_file() and not f.name.startswith(".") and f.name != "README.md":
             zf.write(f, (arc_root / f.relative_to(folder)).as_posix())
 
 
